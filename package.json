@@ -1,0 +1,23 @@
+{
+  "name": "file-loader-error",
+  "version": "0.0.1",
+  "description": "Minimum setup to reproduce file-loader@1.0.0 error with JSX/Babel",
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-react-app": "3.0.2",
+    "file-loader": "1.0.0",
+    "html-webpack-plugin": "2.30.1",
+    "webpack": "3.5.6",
+    "webpack-dev-server": "2.7.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server"
+  },
+  "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
+  "license": "MIT"
+}
