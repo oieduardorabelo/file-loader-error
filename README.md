@@ -20,3 +20,8 @@ On the `package.json`:
 
 If you replace `"file-loader": "1.0.0"` by `"file-loader": "0.11.2"`, everything works as expected.
 
+## Seems is under discussion
+
+This issue is being discussed in the `file-loader` repository:
+
+- https://github.com/webpack-contrib/file-loader/issues/35
